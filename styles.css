@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E58C8A;
+    border-radius: 32px 32px 32px 32px;
+    padding: 0 150px 0 150px;
+ }
+ header img{ 
+    width: 150px;
+    border-radius: 50px;
+ }
+ .ini ul li{
+    list-style: none;
+    margin-bottom: 20px;
+ }
+ header h1{
+    font-family:'Roboto';
+ }
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+main section img{
+    width: 200px;
+    
+}
+main section{
+    border: 2px solid black;
+    margin: 40px;
+    width: 300px;
+}
+footer{
+    align-content: center;
+    margin-left: 550px;
+}
